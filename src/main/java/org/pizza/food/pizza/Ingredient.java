@@ -3,10 +3,10 @@ package org.pizza.food.pizza;
 public enum Ingredient {
 
     CHEESE("fromage"),
-    PEPERONI("pepperoni"),
+    PEPPERONI("pepperoni"),
     MUSHROOM("champignon");
 
-    private String name;
+    private final String name;
 
     Ingredient(String name) {
         this.name = name;

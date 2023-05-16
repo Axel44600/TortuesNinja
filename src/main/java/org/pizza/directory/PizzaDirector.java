@@ -23,7 +23,7 @@ public class PizzaDirector {
         pizzaBuilder.size(Size.LARGE);
         pizzaBuilder.filling(true);
 
-        ingredients.add(Ingredient.PEPERONI);
+        ingredients.add(Ingredient.PEPPERONI);
         ingredients.add(Ingredient.CHEESE);
         pizzaBuilder.ingredients(ingredients);
         return pizzaBuilder.build();
@@ -36,7 +36,7 @@ public class PizzaDirector {
         pizzaBuilder.size(Size.SMALL);
         pizzaBuilder.filling(true);
 
-        ingredients.add(Ingredient.PEPERONI);
+        ingredients.add(Ingredient.PEPPERONI);
         ingredients.add(Ingredient.MUSHROOM);
         pizzaBuilder.ingredients(ingredients);
         return pizzaBuilder.build();
@@ -58,7 +58,7 @@ public class PizzaDirector {
         pizzaBuilder.filling(true);
 
         ingredients.add(Ingredient.CHEESE);
-        ingredients.add(Ingredient.PEPERONI);
+        ingredients.add(Ingredient.PEPPERONI);
         ingredients.add(Ingredient.MUSHROOM);
         pizzaBuilder.ingredients(ingredients);
         return pizzaBuilder.build();
