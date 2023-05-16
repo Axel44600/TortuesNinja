@@ -21,9 +21,10 @@ public class Main {
         pizzas.add(donatello);
 
         System.out.println("\n");
+        System.out.println("Voici les pizzas préférées de nos tortues : \n");
 
         for(Pizza pizza : pizzas) {
-            System.out.print("La pizza "+ pizza.getName() + " : ");
+            System.out.print("La pizza de "+ pizza.getName() + " : ");
             System.out.print("c'est une " + pizza.getSize().getName() + " pizza ");
             if(pizza.isFilling()) {
                 System.out.print("avec ");
